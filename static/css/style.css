@@ -39,9 +39,7 @@ label,input[type=button],input[type=submit],button{cursor:pointer;}
 button,input,select,textarea{margin:0;}
 input:valid,textarea:valid{}
 input:invalid,textarea:invalid{border-radius:1px;-moz-box-shadow:0px 0px 5px red;-webkit-box-shadow:0px 0px 5px red;box-shadow:0px 0px 5px red;}
-::-moz-selection{background: #FF5E99;color:#fff;text-shadow:none;}
-::selection{background:#FF5E99;color:#fff;text-shadow:none;}
-a:link{-webkit-tap-highlight-color:#FF5E99;}
+
 html{-webkit-text-size-adjust:none;}
 
 .clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;visibility:hidden;}
@@ -93,10 +91,6 @@ nav li:last-child {
   margin-left: -5px;
 }
 
-nav li.active {
-  background: #252525 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6d6d6d), to(#252525));
-}
-
 nav a, nav a:active, nav a:visited {
   color: #ffffff;
   text-decoration: none;
@@ -131,11 +125,11 @@ nav a, nav a:active, nav a:visited {
   display: table-row;
 }
 
-#main li .times, #main li .info {
+#main li .times, #main li .info, #main li .more-info-button {
   border-bottom: 1px solid #cacaca;
 }
 
-#main li:last-child .times, #main li:last-child .info {
+#main li:last-child .times, #main li:last-child .info, #main li:last-child .more-info-button {
   border-bottom: none;
 }
 
@@ -168,6 +162,60 @@ nav a, nav a:active, nav a:visited {
   font-weight: normal;
   font-style: italic;
 }
+
+#main .more-info-button {
+  display: table-cell;
+  min-height: 29px;
+  width: 28px;
+}
+
+#main .more-info-button.on {
+  background-image: url(../imgs/info.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#main .more-info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
+  padding: 5px;
+}
+
+.more-info .conf-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.more-info .conf-lecturer {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+.more-info p {
+  margin-bottom: 3px;
+}
+
+.more-info .close-me {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -10px;
+  right: -10px;
+  background-image: url(../imgs/closebox.png);
+}
+
 
 footer {
   background: #717e90 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#596577), to(#717e90));
