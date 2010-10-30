@@ -131,7 +131,11 @@ nav a, nav a:active, nav a:visited {
   display: table-row;
 }
 
-#main li:last-child {
+#main li .times, #main li .info {
+  border-bottom: 1px solid #cacaca;
+}
+
+#main li:last-child .times, #main li:last-child .info {
   border-bottom: none;
 }
 
@@ -139,11 +143,9 @@ nav a, nav a:active, nav a:visited {
   display: table-cell;
   width: 50px;
   padding: 2px;
-  margin-right: 5px;
   text-align: center;
   -webkit-box-shadow: rgba(255, 255, 255, 0.6) 1px 1px 0 inset;
   border-right: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
   background: #ebebeb -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), color-stop(0.4, #f6f6f6), color-stop(0.4, #ebebeb), to(#ebebeb));
 }
 
@@ -155,7 +157,7 @@ nav a, nav a:active, nav a:visited {
 
 #main .info {
   display: table-cell;
-  border-bottom: 1px solid #cacaca;
+  padding-left: 5px;
 }
 
 #main .info .conf-title {
