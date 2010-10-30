@@ -14,13 +14,20 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/schedule5/' do
+end
+
 compile '*' do
   filter :erb
   layout 'default'
 end
 
 route '/stylesheet/' do
-  '/style.css'
+  '/css/style.css'
+end
+
+route '/schedule5/' do
+  '/schedule5.manifest'
 end
 
 route '*' do
