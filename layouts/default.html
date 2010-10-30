@@ -13,11 +13,9 @@
   <div id="container">
     <header>
       <h1>Conferencia Rails 2010: <%= @item[:title] %></h1>
-      <nav><ul>
-        <li class="active"><a href="#day0">Wed 3rd</a></li>
-        <li><a href="#day1">Thu 4th</a></li>
-        <li><a href="#day2">Fri 5th</a></li>
-      </ul></nav>
+      <nav>
+        <%= render 'navigation_menu', :items => @item[:nav] %>
+      </nav>
     </header>
 
     <div id="main">
