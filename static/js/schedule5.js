@@ -11,7 +11,7 @@ jQuery(function() {
 
   jQuery('.more-info-button.on').click(function(event) {
     jQuery('#more-info-container')
-      .empty()
+      .css('top', (jQuery(window).scrollTop() + 10) + 'px')
       .append(jQuery('<div class="close-me" onclick=""></div>'))
       .append(jQuery(this).siblings('.more-info').html())
       .addClass('active');
@@ -21,7 +21,10 @@ jQuery(function() {
     var moreInfoButton = jQuery('#more-info-container');
     moreInfoButton.addClass('closing');
     moreInfoButton.one('webkitTransitionEnd', function(event) {
-      moreInfoButton.removeClass('active closing');
+      moreInfoButton
+        .empty()
+        .css('top', '10px')
+        .removeClass('active closing');
     }, false);
   });
 });

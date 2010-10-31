@@ -47,6 +47,9 @@ html{-webkit-text-size-adjust:none;}
 .clearfix{zoom:1;}
 
 
+body {
+  background-color: #717e90;
+}
 
 header h1 {
   background: #bbbbbb -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbbbbb), to(#a6a6a6));
@@ -97,6 +100,7 @@ nav a, nav a:active, nav a:visited {
 }
 
 #main {
+  background-color: #ffffff;
   border-bottom: 1px solid #999999;
 }
 
