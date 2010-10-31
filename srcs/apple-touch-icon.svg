@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="114"
+   height="114"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="apple-touch-icon.svg"
+   inkscape:export-filename="/Users/daniel/programacion/schedule5/static/apple-touch-icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3636"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       id="filter3860"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur3862"
+         in="SourceAlpha"
+         stdDeviation="3,000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix3864"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0,500000 0 " />
+      <feOffset
+         id="feOffset3866"
+         in="bluralpha"
+         dx="0,000000"
+         dy="3,000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge3868">
+        <feMergeNode
+           id="feMergeNode3870"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode3872"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.32"
+     inkscape:cx="49.177738"
+     inkscape:cy="36.054647"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="683"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-938.36218)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3592"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(0,938.36218)"><flowRegion
+         id="flowRegion3594"><rect
+           id="rect3596"
+           width="89.160843"
+           height="91.258743"
+           x="12.587413"
+           y="9.454545" /></flowRegion><flowPara
+         id="flowPara3598"
+         style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:100px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">C</flowPara></flowRoot>    <rect
+       style="fill:#800000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3611"
+       width="114"
+       height="114"
+       x="-0.34965035"
+       y="0.013986014"
+       transform="translate(0,938.36218)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none"
+       id="rect3613"
+       width="186.36363"
+       height="58.741261"
+       x="-494.0697"
+       y="822.64795"
+       transform="matrix(0.89866512,-0.43863538,0.43863538,0.89866512,0,0)" />
+    <rect
+       transform="matrix(0.94933439,0.31426773,-0.31426773,0.94933439,0,0)"
+       y="826.29718"
+       x="280.13058"
+       height="58.741261"
+       width="186.36363"
+       id="rect3642"
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none"
+       id="rect3644"
+       width="186.36363"
+       height="58.741261"
+       x="370.5502"
+       y="922.20239"
+       transform="matrix(0.91055484,0.4133883,-0.4133883,0.91055484,0,0)" />
+    <rect
+       transform="matrix(0.83431249,-0.55129182,0.55129182,0.83431249,0,0)"
+       y="906.22668"
+       x="-585.83325"
+       height="58.741261"
+       width="186.36363"
+       id="rect3646"
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none"
+       id="rect3648"
+       width="186.36363"
+       height="58.741261"
+       x="-1100.2925"
+       y="85.795494"
+       transform="matrix(-0.01741984,-0.99984826,0.99984826,-0.01741984,0,0)" />
+    <rect
+       transform="matrix(-0.01033719,-0.99994657,0.99994657,-0.01033719,0,0)"
+       y="-52.136887"
+       x="-1094.6628"
+       height="58.741261"
+       width="186.36363"
+       id="rect3650"
+       style="fill:#ffffff;fill-opacity:0.25098041;fill-rule:nonzero;stroke:none" />
+    <g
+       id="g3674"
+       transform="translate(-3.7500625e-4,8.019075)"
+       style="filter:url(#filter3860)">
+      <flowRoot
+         transform="translate(-3.6536328,1005.7772)"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo;-inkscape-font-specification:Museo"
+         id="flowRoot3652"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3654"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo;-inkscape-font-specification:Museo"
+             y="4.948276"
+             x="9.4827585"
+             height="133.62068"
+             width="106.89655"
+             id="rect3656" /></flowRegion><flowPara
+           style="font-size:35px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:50%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Museo;-inkscape-font-specification:Museo Semi-Bold"
+           id="flowPara3660">2010</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3662"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo;-inkscape-font-specification:Museo"
+         transform="translate(-6.715875,928.19101)"><flowRegion
+           id="flowRegion3664"><rect
+             id="rect3666"
+             width="106.89655"
+             height="133.62068"
+             x="9.4827585"
+             y="4.948276"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo;-inkscape-font-specification:Museo" /></flowRegion><flowPara
+           id="flowPara3668"
+           style="font-size:64px;fill:#ffffff;fill-opacity:1">CR</flowPara><flowPara
+           id="flowPara3670"
+           style="font-size:35px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:50%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Museo;-inkscape-font-specification:Museo Semi-Bold" /></flowRoot>    </g>
+  </g>
+</svg>
