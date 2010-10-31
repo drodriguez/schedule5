@@ -176,38 +176,37 @@ nav a, nav a:active, nav a:visited {
 }
 
 #main .more-info {
-  position: fixed;
+  display: none;
+}
+
+#more-info-container {
+  position: absolute;
   top: 10px;
   left: 10px;
   right: 10px;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.8);
   border: 2px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
-  padding: 5px;
+
+  opacity: 0;
+  -webkit-transition: opacity 0.25s;
 }
 
-.more-info .conf-title {
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 6px;
+#more-info-container.active {
+  opacity: 1;
 }
 
-.more-info .conf-lecturer {
-  display: block;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 6px;
-  margin-bottom: 3px;
+#more-info-container.closing {
+  opacity: 0;
+  -webkit-transform-origin: top right;
+  -webkit-transform: skew(-30deg, -5deg) scale(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in, opacity 0.25s ease-in;
 }
 
-.more-info p {
-  margin-bottom: 3px;
-}
-
-.more-info .close-me {
+#more-info-container .close-me {
   position: absolute;
   height: 30px;
   width: 30px;
@@ -216,6 +215,24 @@ nav a, nav a:active, nav a:visited {
   background-image: url(../imgs/closebox.png);
 }
 
+#more-info-container .conf-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+#more-info-container .conf-lecturer {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+#more-info-container p {
+  margin-bottom: 3px;
+}
 
 footer {
   background: #717e90 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#596577), to(#717e90));

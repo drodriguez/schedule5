@@ -18,8 +18,7 @@
           </div>
           <div class="more-info-button<%= ' on' if conference[:moreinfo] %>"></div>
           <% if conference[:moreinfo] %>
-            <div class="more-info" style="display:none">
-              <div class="close-me"></div>
+            <div class="more-info">
               <span class="conf-title"><%= conference[:title] %></span>
               <%= conference[:moreinfo]%>
             </div>
