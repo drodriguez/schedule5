@@ -1,5 +1,7 @@
 jQuery(function() {
   window.scrollTo(0, 1);
+  // This is ugly, but Mobile Safari flickers otherwise the first transition.
+  jQuery('#more-info-container').removeClass('active');
 
   jQuery('nav a').click(function(event) {
     event.preventDefault();

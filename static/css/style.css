@@ -185,7 +185,7 @@ nav a, nav a:active, nav a:visited {
 
 #more-info-container {
   position: absolute;
-  top: 10px;
+  top: -9999px;
   left: 10px;
   right: 10px;
   padding: 5px;
@@ -194,13 +194,12 @@ nav a, nav a:active, nav a:visited {
   border-radius: 5px;
   color: #ffffff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
-
   opacity: 0;
-  -webkit-transition: opacity 0.25s;
 }
 
 #more-info-container.active {
   opacity: 1;
+  -webkit-transition: opacity 0.25s;
 }
 
 #more-info-container.closing {
