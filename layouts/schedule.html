@@ -1,7 +1,7 @@
 <% days.each do |day| %>
   <section>
     <h2 id="<%= day[:id] %>"><%= day[:title] %></h2>
-    <ul>
+    <ul class="table">
       <% day[:conferences].each do |conference| %>
         <li>
           <div class="times">
