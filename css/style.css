@@ -118,26 +118,26 @@ nav a, nav a:active, nav a:visited {
   font-size: 11px;
 }
 
-#main ul {
+#main ul.table {
   list-style: none;
   margin-left: 0;
   display: table;
   width: 100%;
 }
 
-#main li {
+#main ul.table li {
   display: table-row;
 }
 
-#main li .times, #main li .info, #main li .more-info-button {
+#main .table li .times, #main .table li .info, #main .table li .more-info-button {
   border-bottom: 1px solid #cacaca;
 }
 
-#main li:last-child .times, #main li:last-child .info, #main li:last-child .more-info-button {
+#main .table li:last-child .times, #main .table li:last-child .info, #main .table li:last-child .more-info-button {
   border-bottom: none;
 }
 
-#main .times {
+#main .table .times {
   display: table-cell;
   width: 50px;
   padding: 2px;
@@ -147,13 +147,13 @@ nav a, nav a:active, nav a:visited {
   background: #ebebeb -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), color-stop(0.4, #f6f6f6), color-stop(0.4, #ebebeb), to(#ebebeb));
 }
 
-#main .times .time {
+#main .table .times .time {
   font-weight: bold;
   color: #6b6b6b;
   text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0, rgba(0, 0, 0, 0.6) 0 -1px 0;
 }
 
-#main .info {
+#main .table .info {
   display: table-cell;
   padding-left: 5px;
 }
@@ -167,19 +167,19 @@ nav a, nav a:active, nav a:visited {
   font-style: italic;
 }
 
-#main .more-info-button {
+#main .table .more-info-button {
   display: table-cell;
   min-height: 29px;
   width: 28px;
 }
 
-#main .more-info-button.on {
+#main .table .more-info-button.on {
   background-image: url(../imgs/info.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-#main .more-info {
+#main .table .more-info {
   display: none;
 }
 
@@ -225,7 +225,7 @@ nav a, nav a:active, nav a:visited {
   margin-bottom: 6px;
 }
 
-#more-info-container .conf-lecturer {
+#more-info-container .conf-lecturer, #more-info-container .subsection {
   display: block;
   font-weight: bold;
   font-size: 14px;
@@ -236,6 +236,11 @@ nav a, nav a:active, nav a:visited {
 #more-info-container p {
   margin-bottom: 3px;
 }
+
+#more-info-container a, #more-info-container a:active, #more-info-container a:visited {
+  color:#ffffff;
+}
+
 
 footer {
   background: #717e90 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#596577), to(#717e90));
