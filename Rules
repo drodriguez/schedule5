@@ -13,6 +13,10 @@
 compile '/static/*' do
 end
 
+compile '/schedule5/' do
+  filter :erb
+end
+
 compile '*' do
   filter :erb
   layout 'default'
@@ -20,6 +24,10 @@ end
 
 route '/static/*' do
   item.identifier[7..-2]
+end
+
+route '/schedule5/' do
+  '/schedule5.manifest'
 end
 
 route '*' do
