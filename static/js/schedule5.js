@@ -14,6 +14,7 @@ jQuery(function() {
   jQuery('.more-info-button.on').click(function(event) {
     jQuery('#more-info-container')
       .css('top', (jQuery(window).scrollTop() + 10) + 'px')
+      .empty()
       .append(jQuery('<div class="close-me" onclick=""></div>'))
       .append(jQuery(this).siblings('.more-info').html())
       .addClass('active');
@@ -24,7 +25,6 @@ jQuery(function() {
     moreInfoButton.addClass('closing');
     moreInfoButton.one('webkitTransitionEnd', function(event) {
       moreInfoButton
-        .empty()
         .css('top', '10px')
         .removeClass('active closing');
     }, false);
